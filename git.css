@@ -42,13 +42,24 @@ form{
     margin: 10px;
     padding: 3px;
     top: 83%;
-    left: 135%;
+    left: 85%;
     font-weight: bold;
-    position: relative;
+    position: absolute;
     
 }
 
 #title{
     height: 1.5rem;
+    display: block;
+    width: 275px;
     
+}
+
+.container {
+    display: block;
+}
+
+.completed{
+    text-decoration-style: line-through;
+    color: blueviolet;
 }
